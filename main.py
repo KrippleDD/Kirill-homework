@@ -2,13 +2,14 @@
 
 #ДЗ №2 Школьниrи и яблоки
 
-n = 3
-k = 10
 
-print (n,k)
-
-print ("Решение")
+apples = input(10)
+kids = input(3)
 
 
+answer1 = apples // kids
+answer2 = apples % kids
 
-print(k // n)
+print('Ответ', answer1)
+print('Ответ', answer2)
+
